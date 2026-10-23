@@ -1,0 +1,45 @@
+{
+  "existing": {
+    "calculator": {
+      "CALCULATOR00": {
+        "jurisdiction": "s1e",
+        "serviceClass": "s1f",
+        "services": 32,
+        "id": "CALCULATOR00"
+      },
+      "CALCULATOR01": {
+        "jurisdiction": "s3c",
+        "serviceClass": "s3d",
+        "services": 62,
+        "id": "CALCULATOR01"
+      },
+      "CALCULATOR02": {
+        "jurisdiction": "s5a",
+        "serviceClass": "s5b",
+        "services": 92,
+        "id": "CALCULATOR02"
+      }
+    }
+  },
+  "new": {
+    "calculator": {
+      "calculator_ref01": {
+        "jurisdiction": "s78",
+        "serviceClass": "s79",
+        "services": 122
+      }
+    }
+  },
+  "requests": {
+    "POST /mcp/tools/calculate": {
+      "provenance": "operation-contract",
+      "version": 2,
+      "source": "openapi3"
+    },
+    "POST /mcp/tools/calculator_describe": {
+      "provenance": "operation-contract",
+      "version": 2,
+      "source": "openapi3"
+    }
+  }
+}
